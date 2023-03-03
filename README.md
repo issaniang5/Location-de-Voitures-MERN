@@ -2,7 +2,7 @@
 
 Rent a car MERN stack app with essential dependencies like Redux Toolkit, Stripe, testing-library, Axios, React, React Router, and Tailwind CSS.
 
-<img src='https://github.com/issaniang5/Analyseur-de-sentiments-sur-X/blob/main/tweet%202.jpg' height=800px width=800px></img>
+<img src='https://github.com/issaniang5/Location-de-Voitures-MERN/blob/main/loader.gif' height=500px width=800px></img>
 
 ## 🔍 Table of Contents
 
