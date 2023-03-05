@@ -7,16 +7,16 @@ const Footer = () => {
     <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
       <div className="grid grid-flow-col gap-4">
         <Link to="/" className="link link-hover">
-          Home
+        Accueil
         </Link>
         <Link to="/about" className="link link-hover">
-          About
+        À propos
         </Link>
         <Link to="/contact" className="link link-hover">
-          Contact
+        Contact
         </Link>
         <Link to="/sign-in" className="link link-hover">
-          Login
+        Connexion
         </Link>
       </div>
       <div>
@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <p>Copyright © 2022 - All right reserved by Rent a Car</p>
+        <p>Copyright © 2022 - Tous droits réservés par CarRentProviders</p>
       </div>
     </footer>
   )

@@ -19,7 +19,7 @@ const CarItem = ({ car }) => {
         <p>{car.name}</p>
         <div className="card-actions justify-end">
           <button className="btn btn-sm md:btn-md btn-primary">
-            Reserve Now
+          Réservez maintenant
           </button>
         </div>
       </div>
