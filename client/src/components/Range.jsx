@@ -28,7 +28,7 @@ const Range = ({ min, max, value, setValue }) => {
 
       <div className="flex justify-end">
         <button className="btn mt-4" onClick={filterHandler}>
-          Search
+        rechercher
         </button>
       </div>
     </div>

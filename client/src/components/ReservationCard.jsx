@@ -14,21 +14,21 @@ const ReservationCard = ({ reservation }) => {
       <div className="card-body">
         <h2 className="card-title">{reservation.reservationItem.brand}</h2>
         <p>
-          The car is reserved from {formatDate(reservation.fromDate)} to{' '}
-          {formatDate(reservation.toDate)} totalCost {reservation.totalCost} €
+        La voiture est réservée à partir de {formatDate(reservation.fromDate)} jusqu'à{' '}
+          {formatDate(reservation.toDate)} coût total {reservation.totalCost} €
         </p>
         <div>
           {reservation.isApproved ? (
             <button className="btn btn-xs btn-success btn-outline">
-              confirmed
+              confirmé
             </button>
           ) : (
             <button className="btn btn-xs btn-warning btn-outline">
-              not confirmed
+              non confirmé
             </button>
           )}
           {reservation.isPaid && (
-            <button className="btn btn-xs btn-success btn-outline">paid</button>
+            <button className="btn btn-xs btn-success btn-outline">payé</button>
           )}
         </div>
         <div className="card-actions justify-end">
@@ -37,7 +37,7 @@ const ReservationCard = ({ reservation }) => {
               className="btn  btn-secondary btn-sm md:btn-md"
               to={`/reservation/payment/${reservation._id}`}
             >
-              Pay
+              Payer
             </Link>
           )}
         </div>

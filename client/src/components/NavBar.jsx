@@ -15,23 +15,23 @@ const NavBar = () => {
       }
     >
       <Link to="/" className="text-2xl">
-        Rent a Car
+      Fournisseurs de location de voitures
       </Link>
       <div className="hidden space-x-14 items-center  md:flex">
-        <Link to="/">Home</Link>
-        <Link to="/cars">Cars</Link>
-        <Link to="/about">About</Link>
+        <Link to="/">Accueil</Link>
+        <Link to="/cars">Voitures</Link>
+        <Link to="/about">À propos</Link>
         <Link to="/contact">Contact</Link>
         {userInfo && !userInfo.isAdmin ? (
           <Link
             to="/my-account"
             className="btn btn-sm  btn-outline btn-secondary"
           >
-            My Account
+            Mon compte
           </Link>
         ) : (
           <Link to="/sign-in" className="btn btn-sm  btn-outline btn-secondary">
-            Login
+            Connexion
           </Link>
         )}
       </div>

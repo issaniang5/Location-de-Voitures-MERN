@@ -67,7 +67,7 @@ const UserProfile = () => {
       >
         {error && <Alert variant="alert-error" message={error} />}
         {success && <Alert variant="alert-success" message="User Updated" />}
-        <label htmlFor="name">Name</label>
+        <label htmlFor="name">Nom</label>
         <input
           type="text"
           placeholder="Enter name"
@@ -86,7 +86,7 @@ const UserProfile = () => {
           onChange={onChange}
           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
         />
-        <label htmlFor="phonenumber">Phone Number</label>
+        <label htmlFor="phonenumber">Numéro de Téléphone</label>
         <input
           type="tel"
           placeholder="Enter phoneNumber"
@@ -97,7 +97,7 @@ const UserProfile = () => {
           className="input input-bordered w-full mb-6"
           onChange={onChange}
         />
-        <label htmlFor="password">Password</label>
+        <label htmlFor="password">Mot de Passe</label>
         <input
           type="password"
           placeholder="Enter password"
@@ -114,7 +114,7 @@ const UserProfile = () => {
           className="input input-bordered w-full"
           onChange={onChange}
         />
-        <button className="btn mt-6">Save</button>
+        <button className="btn mt-6">Enregistrer</button>
       </form>
     </>
   )

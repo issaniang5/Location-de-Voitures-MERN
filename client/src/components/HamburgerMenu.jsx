@@ -46,16 +46,16 @@ const HamburgerMenu = () => {
         }`}
       >
         <Link to="/" onClick={toggleHandler}>
-          Home
+        Accueil
         </Link>
         <Link to="/cars" onClick={toggleHandler}>
-          Cars
+        Voitures
         </Link>
         <Link to="/about" onClick={toggleHandler}>
-          About
+        À propos
         </Link>
         <Link to="/contact" onClick={toggleHandler}>
-          Contact
+        Contact
         </Link>
         {userInfo && !userInfo.isAdmin ? (
           <Link
@@ -63,7 +63,7 @@ const HamburgerMenu = () => {
             className="btn btn-md btn-outline btn-secondary"
             onClick={toggleHandler}
           >
-            My Account
+            Mon compte
           </Link>
         ) : (
           <Link
@@ -71,7 +71,7 @@ const HamburgerMenu = () => {
             className="btn btn-md  btn-outline btn-secondary"
             onClick={toggleHandler}
           >
-            Login
+            Connexion
           </Link>
         )}
       </div>
