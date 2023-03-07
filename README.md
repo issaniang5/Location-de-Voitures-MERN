@@ -1,5 +1,10 @@
 
-<h1 align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&amp;color=7AF79A&amp;size=30&amp;lines=CAR RENT SERVICE PROVIDER WEBSITE" alt="Typing SVG"></a></h1>
+<h1 align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&color=7AF79A&size=30&lines=CAR+RENT+SERVICE+PROVIDER+WEBSITE" alt="Typing SVG">
+  </a>
+</h1>
+
 
 # 📌 Overview
 
