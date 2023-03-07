@@ -6,53 +6,54 @@
 </h1>
 
 
-# 📌 Overview
+# 📌 Aperçu
 
-Rent a car MERN stack app with essential dependencies like Redux Toolkit, Stripe, testing-library, Axios, React, React Router, and Tailwind CSS.
+Une application MERN pour la location de voitures, intégrant des dépendances essentielles telles que Redux Toolkit, Stripe, Testing Library, Axios, React, React Router et Tailwind CSS.
+
 
 <img src='https://github.com/issaniang5/Location-de-Voitures-MERN/blob/main/loader.gif' height=500px width=800px></img>
 
-## 🔍 Table of Contents
+## 🔍 🔍 Table des Matières
 
-* [📝 Project Summary](#-project-summary)
+* [📝 Résumé du Projet](#-résumé-du-projet)
 
-* [💻 Stack](#-stack)
+* [💻 Pile Technologique](#-pile-technologique)
 
-* [⚙️ Setting Up](#-setting-up)
+* [⚙️ Configuration](#-configuration)
 
-* [🚀 Run Locally](#-run-locally)
+* [🚀 Lancer Localement](#-lancer-localement)
 
 
+## 📝 Résumé du Projet
 
-## 📝 Project Summary
+- [client/src](client/src) : Contient le code source principal de l'application côté client.
+- [client/src/api](client/src/api) : Gère les requêtes et réponses API.
+- [client/src/app](client/src/app) : Contient les fichiers et composants principaux de l'application.
+- [client/src/assets](client/src/assets) : Stocke les fichiers statiques utilisés dans l'application.
+- [client/src/components](client/src/components) : Contient des composants d'interface utilisateur réutilisables.
+- [client/src/features](client/src/features) : Contient des composants et logiques spécifiques aux fonctionnalités.
+- [client/src/pages](client/src/pages) : Regroupe les différentes pages de l'application.
+- [client/src/utils](client/src/utils) : Fournit des fonctions utilitaires et des méthodes d'aide.
+- [server/controllers](server/controllers) : Implémente la logique pour gérer les requêtes HTTP.
+- [server/models](server/models) : Définit les modèles de données utilisés par le serveur.
 
-- [client/src](client/src): Contains the main source code of the client-side application.
-- [client/src/api](client/src/api): Handles API requests and responses.
-- [client/src/app](client/src/app): Contains the main application files and components.
-- [client/src/assets](client/src/assets): Stores static assets used in the application.
-- [client/src/components](client/src/components): Houses reusable UI components.
-- [client/src/features](client/src/features): Contains feature-specific components and logic.
-- [client/src/pages](client/src/pages): Holds the different pages of the application.
-- [client/src/utils](client/src/utils): Provides utility functions and helper methods.
-- [server/controllers](server/controllers): Implements the logic for handling HTTP requests.
-- [server/models](server/models): Defines the data models used by the server.
+## 💻 Pile Technologique
 
-## 💻 Stack
-
-- [reduxjs/toolkit](https://redux-toolkit.js.org/): A library that simplifies Redux state management.
-- [stripe/react-stripe-js](https://github.com/stripe/react-stripe-js): React components for integrating Stripe payments.
-- [testing-library/jest-dom](https://github.com/testing-library/jest-dom): Custom Jest matchers for easier testing.
-- [axios](https://axios-http.com/): A promise-based HTTP client for making API requests.
-- [react](https://reactjs.org/): A JavaScript library for building user interfaces.
-- [react-dom](https://reactjs.org/docs/react-dom.html): Provides the DOM-specific methods for React.
-- [react-redux](https://react-redux.js.org/): Official React bindings for Redux.
-- [react-router-dom](https://reactrouter.com/web/guides/quick-start): Declarative routing for React applications.
+- [reduxjs/toolkit](https://redux-toolkit.js.org/) : Une bibliothèque qui simplifie la gestion d'état avec Redux.
+- [stripe/react-stripe-js](https://github.com/stripe/react-stripe-js) : Composants React pour intégrer les paiements Stripe.
+- [testing-library/jest-dom](https://github.com/testing-library/jest-dom) : Matchers Jest personnalisés pour des tests simplifiés.
+- [axios](https://axios-http.com/) : Un client HTTP basé sur des promesses pour effectuer des requêtes API.
+- [react](https://reactjs.org/) : Une bibliothèque JavaScript pour créer des interfaces utilisateur.
+- [react-dom](https://reactjs.org/docs/react-dom.html) : Fournit des méthodes spécifiques au DOM pour React.
+- [react-redux](https://react-redux.js.org/) : Liaisons officielles entre React et Redux.
+- [react-router-dom](https://reactrouter.com/web/guides/quick-start) : Routage déclaratif pour les applications React.
 
 ## ⚙️ Setting Up
 
 #### Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file in the server folder
+Pour exécuter ce projet, vous devez ajouter les variables d'environnement suivantes dans votre fichier `.env` dans le dossier `server` :
+
 
 `STRIPE_SECRET_TEST`
 
@@ -62,19 +63,19 @@ To run this project, you will need to add the following environment variables to
 
 `MONGO_URI`
 
-## 🚀 Run Locally
-1.Clone the rentacar repository:
+## 🚀 🚀 Lancer Localement
+1.Clonez le dépôt **Location de Voitures MERN**:
 ```sh
 git clone https://github.com/fiskryeziu/rentacar
 ```
-2.For the backend, navigate to the "server" directory:
+2.Pour le backend, accédez au répertoire "server":
 ```bash
 cd server
 npm install
 npm run server
 ```
 
-3.For the frontend, navigate to the "client" directory:
+3.Pour le frontend, accédez au répertoire "client":
 ```bash
 cd client
 npm install
