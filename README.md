@@ -6,7 +6,7 @@
 </h1>
 
 
-# 📌 Aperçu
+# 🛞 Aperçu
 
 Une application MERN pour la location de voitures, intégrant des dépendances essentielles telles que Redux Toolkit, Stripe, Testing Library, Axios, React, React Router et Tailwind CSS.
 
