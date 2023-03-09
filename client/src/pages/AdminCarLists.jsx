@@ -42,7 +42,7 @@ const AdminCarLists = () => {
     <>
       <div>
         <button onClick={addHandler} className="btn btn-sm btn-accent mb-6">
-          Add Car <BsPlusLg className="ml-2" />
+        Ajouter une voiture <BsPlusLg className="ml-2" />
         </button>
       </div>
       <div className="overflow-x-auto mb-20">
@@ -50,11 +50,11 @@ const AdminCarLists = () => {
           <thead>
             <tr>
               <th></th>
-              <th>CarId</th>
-              <th>Brand</th>
-              <th>Name</th>
-              <th>Price</th>
-              <th>CreatedAt</th>
+              <th>Identifiant de la voiture</th>
+              <th>Marque</th>
+              <th>Nom</th>
+              <th>Prix</th>
+              <th>Créé le</th>
               <th></th>
               <th></th>
             </tr>
@@ -73,7 +73,7 @@ const AdminCarLists = () => {
                     className="btn btn-outline btn-xs btn-error"
                     onClick={() => clickHandler(car._id)}
                   >
-                    Delete
+                    Supprimer
                   </button>
                 </td>
                 <td>
@@ -81,7 +81,7 @@ const AdminCarLists = () => {
                     className="btn btn-outline btn-xs btn-warning"
                     onClick={() => editHandler(car._id)}
                   >
-                    edit
+                    Modifier
                   </button>
                 </td>
               </tr>

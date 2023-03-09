@@ -20,31 +20,31 @@ const AdminHome = () => {
           <li>
             <Link to="dashboard">
               <AiOutlineDashboard />
-              <p>Dashboard</p>
+              <p>Tableau de bord</p>
             </Link>
           </li>
           <li>
             <Link to="reservations">
               <FaBookmark />
-              <p>Reservation</p>
+              <p>Réservation</p>
             </Link>
           </li>
           <li>
             <Link to="cars">
               <FaCar />
-              <p>Cars</p>
+              <p>Voitures</p>
             </Link>
           </li>
           <li>
             <Link to="users">
               <FaUserAlt />
-              <p>Users</p>
+              <p>Utilisateurs</p>
             </Link>
           </li>
           <li onClick={logoutHandler}>
             <span>
               <FaSignInAlt />
-              <p>Sign Out</p>
+              <p>Déconnexion</p>
             </span>
           </li>
         </ul>
