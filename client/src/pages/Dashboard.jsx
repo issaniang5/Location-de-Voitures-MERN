@@ -30,7 +30,7 @@ const Dashboard = () => {
           <div className="stat-figure text-primary">
             <FaCar className="text-4xl" />
           </div>
-          <div className="stat-title">Total Cars</div>
+          <div className="stat-title">Total des voitures</div>
           <div className="stat-value text-primary">{cars?.length}</div>
           <div className="stat-desc"></div>
         </div>
@@ -39,7 +39,7 @@ const Dashboard = () => {
           <div className="stat-figure text-secondary">
             <FaBookmark className="text-4xl text-accent" />
           </div>
-          <div className="stat-title">Reservations</div>
+          <div className="stat-title">Réservations</div>
           <div className="stat-value text-accent">
             {!reservations
               ? 0
@@ -47,14 +47,14 @@ const Dashboard = () => {
               ? reservations.length
               : 0}
           </div>
-          <div className="stat-desc">4 confirmed & 10 unconfirmed</div>
+          <div className="stat-desc">4 confirmées et 10 non confirmées</div>
         </div>
 
         <div className="stat">
           <div className="stat-figure text-secondary">
             <FaUserAlt className="text-4xl" />
           </div>
-          <div className="stat-title">Users</div>
+          <div className="stat-title">Utilisateurs</div>
           <div className="stat-value">{users.length}</div>
         </div>
       </div>
