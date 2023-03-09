@@ -85,23 +85,23 @@ const CarDetails = () => {
                 <div className="flex flex-col shadow w-32 h-32 justify-center items-center">
                   <FaCalendar className="text-5xl" />
                   <p className="text-2xl font-light">{car.yearModel}</p>
-                  <p>Year Model</p>
+                  <p>Modèle Année</p>
                 </div>
                 <div className="flex flex-col shadow w-32 h-32 justify-center items-center">
                   <FaGasPump className="text-5xl" />
                   <p className="text-2xl font-light">{car.fuelType}</p>
-                  <p>Fuel type</p>
+                  <p>Type de carburant</p>
                 </div>
                 <div className="flex flex-col shadow w-32 h-32 justify-center items-center">
                   <MdAirlineSeatReclineExtra className="text-5xl" />
                   <p className="text-2xl font-light">{car.seatCapacity}</p>
-                  <p>Seats</p>
+                  <p>Places</p>
                 </div>
               </div>
             </div>
             <div className="flex flex-col">
               <p className="text-4xl text-accent mb-5">{car.pricePerDay} $</p>
-              <label htmlFor="fromdate">From Date</label>
+              <label htmlFor="fromdate">Date de début</label>
               <DatePicker
                 className="bg-neutral rounded-md px-2"
                 selected={startDate}
@@ -111,7 +111,7 @@ const CarDetails = () => {
                 minDate={new Date()}
                 endDate={endDate}
               />
-              <label htmlFor="todate">To Date</label>
+              <label htmlFor="todate">Date de fin</label>
               <DatePicker
                 className="bg-neutral rounded-md px-2"
                 selected={endDate}
@@ -135,7 +135,7 @@ const CarDetails = () => {
                 </button>
               ) : (
                 <Link to="/sign-in" className="btn btn-accent mt-5">
-                  Sign in for reservations
+                  Connectez-vous pour les réservations
                 </Link>
               )}
             </div>
