@@ -47,9 +47,9 @@ const Register = () => {
   return (
     <div className="relative flex justify-center flex-col items-center pt-12 mx-2">
       {error && <Alert variant="text-error" message={error} />}
-      <h1 className="text-center text-2xl">Register</h1>
+      <h1 className="text-center text-2xl">S'inscrire</h1>
       <form className="form-control w-full max-w-md" onSubmit={submitHandler}>
-        <label htmlFor="name">Name</label>
+        <label htmlFor="name">Nom</label>
         <input
           type="text"
           placeholder="Enter name"
@@ -70,7 +70,7 @@ const Register = () => {
           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
           required
         />
-        <label htmlFor="phonenumber">Phone Number</label>
+        <label htmlFor="phonenumber">Numéro de téléphone</label>
         <input
           type="tel"
           placeholder="Enter phoneNumber"
@@ -102,9 +102,9 @@ const Register = () => {
           required
         />
         <Link to="/sign-in" className="link link-primary">
-          Sign in
+        Se connecter
         </Link>
-        <button className="btn mt-6">Sign up</button>
+        <button className="btn mt-6">S'inscrire</button>
       </form>
     </div>
   )

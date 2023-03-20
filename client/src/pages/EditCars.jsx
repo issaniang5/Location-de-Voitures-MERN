@@ -129,7 +129,7 @@ const EditCars = () => {
       className="form-control w-[300px] mx-auto mb-20"
       onSubmit={submitHandler}
     >
-      <label htmlFor="name">Name</label>
+      <label htmlFor="name">Nom</label>
       <input
         type="text"
         value={name}
@@ -137,7 +137,7 @@ const EditCars = () => {
         onChange={onChange}
         className="input input-bordered  w-full mb-6"
       />
-      <label htmlFor="brand">Brand</label>
+      <label htmlFor="brand">Marque</label>
       <input
         type="text"
         name="brand"
@@ -145,7 +145,7 @@ const EditCars = () => {
         onChange={onChange}
         className="input input-bordered w-full mb-6"
       />
-      <label htmlFor="priceperday">Price per day</label>
+      <label htmlFor="priceperday">Prix par jour</label>
       <input
         type="number"
         name="pricePerDay"
@@ -161,7 +161,7 @@ const EditCars = () => {
         onChange={onChange}
         className="input input-bordered w-full mb-6"
       />
-      <label htmlFor="yearmodel">Year Model</label>
+      <label htmlFor="yearmodel">Modèle Année</label>
       <input
         type="number"
         name="yearModel"
@@ -169,7 +169,7 @@ const EditCars = () => {
         onChange={onChange}
         className="input input-bordered w-full mb-6"
       />
-      <label htmlFor="seatcapacity">Seat Capacity</label>
+      <label htmlFor="seatcapacity">Capacité des sièges</label>
       <input
         type="number"
         name="seatCapacity"
@@ -177,7 +177,7 @@ const EditCars = () => {
         onChange={onChange}
         className="input input-bordered w-full mb-6"
       />
-      <label htmlFor="fueltype">Fuel</label>
+      <label htmlFor="fueltype">Carburant</label>
       <input
         type="text"
         name="fuelType"
@@ -200,7 +200,7 @@ const EditCars = () => {
           uploading ? 'btn-success' : 'btn-disabled loading'
         }`}
       >
-        Send
+        Envoyer
       </button>
     </form>
   )

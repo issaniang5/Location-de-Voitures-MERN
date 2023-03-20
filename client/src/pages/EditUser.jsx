@@ -84,7 +84,7 @@ const EditUser = () => {
       className="form-control w-[300px] mx-auto mb-20"
       onSubmit={editHandler}
     >
-      <label htmlFor="name">Name</label>
+      <label htmlFor="name">Nom</label>
       <input
         type="text"
         value={name}
@@ -110,7 +110,7 @@ const EditUser = () => {
         onChange={onChange}
         className="checkbox mb-2"
       />
-      <label htmlFor="phonenumber">Phone Number</label>
+      <label htmlFor="phonenumber">Numéro de téléphone</label>
       <input
         type="text"
         placeholder="Enter number"
@@ -131,7 +131,7 @@ const EditUser = () => {
         placeholder="Enter City"
         className="input input-bordered w-full mb-6"
       /> */}
-      <button className="btn mt-6">Send</button>
+      <button className="btn mt-6">Envoyer</button>
     </form>
   )
 }

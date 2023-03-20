@@ -30,26 +30,26 @@ const MyAccount = () => {
     <>
       <Hero img={url} pageName="My Account" />
       <h1 className="text-center text-3xl font-thin mt-10">
-        Welcome {userInfo && userInfo.name}
+      Bienvenue {userInfo && userInfo.name}
       </h1>
       <div className="flex flex-col items-center md:items-start md:flex-row md:ml-[20%] gap-5 my-10">
         <ul className="menu menu-horizontal  md:menu-vertical md:w-56 md bg-base-100  p-2 rounded-box gap-5">
           <li>
             <Link to="profile">
               <FaUserAlt />
-              <p className="hidden sm:block">Profile</p>
+              <p className="hidden sm:block">Profil</p>
             </Link>
           </li>
           <li>
             <Link to="reservations">
               <FaBookmark />
-              <p className="hidden sm:block">Reservation</p>
+              <p className="hidden sm:block">Réservation</p>
             </Link>
           </li>
           <li onClick={logoutHandler}>
             <span>
               <FaSignInAlt />
-              <p className="hidden sm:block">Sign Out</p>
+              <p className="hidden sm:block">Déconnexion</p>
             </span>
           </li>
         </ul>
