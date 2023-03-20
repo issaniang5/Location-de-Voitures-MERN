@@ -67,12 +67,12 @@ const Reservations = () => {
             <th></th>
             <th>CarId</th>
             <th>Car</th>
-            <th>Cost</th>
-            <th>Name</th>
-            <th>Phone</th>
-            <th>To Date</th>
-            <th>Paid</th>
-            <th>Approved</th>
+            <th>Coût</th>
+            <th>Nom</th>
+            <th>Téléphone</th>
+            <th>Jusqu'à la date</th>
+            <th>Payé</th>
+            <th>Approuvé</th>
             <th></th>
           </tr>
         </thead>
@@ -107,7 +107,7 @@ const Reservations = () => {
                       className="btn btn-outline btn-xs btn-warning"
                       onClick={() => approveHandler(reservation._id)}
                     >
-                      Approve
+                      Approuver
                     </button>
                   )}
                   {result(todayDate, reservation.toDate) && (
@@ -115,7 +115,7 @@ const Reservations = () => {
                       className="btn btn-outline btn-xs btn-error"
                       onClick={() => deleteHandler(reservation._id)}
                     >
-                      delete
+                      Supprimer
                     </button>
                   )}
                 </td>

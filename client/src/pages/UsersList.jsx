@@ -46,9 +46,9 @@ const UsersList = () => {
           <thead>
             <tr>
               <th></th>
-              <th>Name</th>
+              <th>Nom</th>
               <th>Email</th>
-              <th>Phone</th>
+              <th>Téléphone</th>
               <th>Admin</th>
               <th></th>
               <th></th>
@@ -93,9 +93,9 @@ const UsersList = () => {
           <tfoot>
             <tr>
               <th></th>
-              <th>Name</th>
+              <th>Nom</th>
               <th>Email</th>
-              <th>Phone</th>
+              <th>Téléphone</th>
               <th>Admin</th>
               <th></th>
               <th></th>
