@@ -27,7 +27,7 @@ const importData = async () => {
 
     await Car.insertMany(sampleData)
 
-    console.log('Data imported')
+    console.log('Données importées')
     process.exit()
   } catch (error) {
     console.error(`${error}`)
@@ -41,7 +41,7 @@ const destroyData = async () => {
     await Car.deleteMany()
     await User.deleteMany()
 
-    console.log('Data Destroyed!')
+    console.log('Données détruites !')
     process.exit()
   } catch (error) {
     console.error(`${error}`)
